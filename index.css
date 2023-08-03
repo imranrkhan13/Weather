@@ -105,3 +105,13 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width: 767px) {
+    .details {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .col{
+        padding: 6px;
+    }
+}
